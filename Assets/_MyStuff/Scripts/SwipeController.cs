@@ -8,7 +8,7 @@ public class SwipeController : MonoBehaviour
     #region Public Variables
     public static SwipeController INSTANCE;
     public enum SwipeDirection { Top, Right, Bottom, Left, None };
-    public SwipeDirection swipeDirection;
+    public static SwipeDirection swipeDirection;
     #endregion
 
     #region Private Variables
